@@ -16,6 +16,14 @@ num2 = float(input('ingresa el segundo numero: '))
 
 totalSuma = num1 + num2
 totalMulti = num1 * num2
+totalRes = num1 - num2
+totalDiv = num1 / num2
+totalDivExact = num1 // num2
+totalResid = num1 % num2
 
 print('el resultado de la suma es igual a ', '{:0.2f}'.format(totalSuma))
 print('el resultado de la multiplicacion es igual a ', '{:0.3f}'.format(totalMulti))
+print('el resultado de la resta es igual a ', '{:0.2f}'.format(totalRes))
+print('el resultado de la division es igual a ', '{:0.3f}'.format(totalDiv))
+print('el resultado de la division exacta es igual a ', '{:0.2f}'.format(totalDivExact))
+print('el residuo de la division es igual a ', '{:0.3f}'.format(totalResid))
