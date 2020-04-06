@@ -1,6 +1,6 @@
 from random import randint
 
-pc = randit(1,3)
+pc = randint(1,3)
 
 player = int(input('Que arma escoges? (1)Piedra - (2)Papel - (3)Tijera      '))
 
