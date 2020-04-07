@@ -89,7 +89,7 @@ print(f'Total de lo que le has pagado a la Iglesia: {acum:.2f}')
 
 newAc = 0
 
-for 1 in range(0, 10):
+for i in range(0, 10):
   pay = float(input('Ingresa tu diezmo a la iglesia: '))
   payments += newAc
 print(f'Total de lo que le has pagado a la Iglesia: {newAc:.2f}')
